@@ -1,0 +1,184 @@
+body {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    display: block;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    z-index: 1;
+    background-color: white;
+}
+
+.logo {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding-right: 12px;
+    width: 70px;
+    height: 60px;
+}
+
+.menu ul {
+    margin-right: 30px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.menu a {
+    color: black;
+}
+
+
+/***********************************/
+
+div {
+    display: block;
+}
+
+.content {
+    display: flex;
+    width: 1272px;
+    margin: 0 auto 78px auto;
+    padding-top: 116px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+}
+
+.column.large {
+    width: 630px;
+}
+
+.column.medium {
+    width: 300px;
+}
+
+.column.small {
+    width: 240px;
+}
+
+
+/***********************************/
+
+.image-content {
+    height: 300px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.lead-story .image-content {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+    margin: 0;
+    text-align: left;
+    font-size: 40px;
+}
+
+.fall-cancelled.image-content {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+
+.pop-culture.image-content {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+
+.cat-ceo.image-content {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+.stories {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.stories.text-content {
+    height: 250px;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+img.cookie {
+    height: 240px;
+}
+
+.new-bites h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 41px;
+}
+
+.bite {
+    display: block;
+    border-bottom: 1px solid black;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dimgray;
+    padding: 11px 20px;
+    font-size: 12px;
+}
+
+
+/***********************************/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 100%;
+    height: 325px;
+    background-color: mediumaquamarine;
+}
+
+footer .title {
+    color: white;
+    font-weight: bold;
+    border-right: 2px solid white;
+    padding-right: 20px;
+    font-size: 16px;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer nav {
+    display: inline-block;
+    padding-left: 25px;
+}
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+a {
+    color: black;
+}
