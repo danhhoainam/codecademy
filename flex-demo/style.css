@@ -1,0 +1,19 @@
+div {
+    border: 1px solid black;
+}
+
+.flex-container {
+    background-color: lightblue;
+    height: 150px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box {
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+}
