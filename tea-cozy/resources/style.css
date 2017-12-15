@@ -18,7 +18,7 @@ body {
 h2,
 h3,
 h4 {
-    margin: auto;
+    margin: 0;
     padding: 10px;
 }
 
@@ -136,7 +136,7 @@ nav span {
 
 /* ============= Footer ============= */
 
-.content {
+.contact {
     height: 200px;
 }
 
@@ -144,4 +144,3 @@ footer {
     text-align: left;
     padding-left: 20px;
 }
-
